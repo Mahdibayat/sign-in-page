@@ -1,0 +1,60 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>فرم‌ٍثبت‌نام</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <a href='https://cdpn.io/Mahdibayat72/debug/mdymRVp/gakeYzvoLNok'>
+        <p class=designer>designer : mahdibayat</p>
+    </a>
+    <header class="Header">
+        <h1 id="title">فرم ثبت‌نام</h1>
+        <p id="description">خوش‌آمدین، با ثبت نظر به ما در جهت پیشرفت کمک کنین، ممنون</p>
+    </header>
+    <main class="Main">
+        <form class="Form" id="survey-form">
+            <section class="etelaat">
+                <label id="name-label" for="name">نام و نام خانوادگی :</label><br />
+                <input id="name" class="txtinput" type="text" name="name" placeholder="نام و نام خانوادگی"
+                    required><br /><br />
+                <label id="email-label" for="email">ایمیل :</label><br />
+                <input id="email" class="txtinput" type="email" name="email" placeholder="نام و نام خانوادگی"
+                    required><br /><br />
+                <label id="number-label" for="number">شماره تلفن همراه</label><br />
+                <input id="number" min="09010000000" max="09999999999" class="txtinput" type="number" name="number"
+                    placeholder="...09" required>
+            </section><br />
+            <section class="sisos">
+                <label for="sis">از چه سیستم عاملی استفاده میکنید؟</label><br /><br />
+                <select id="dropdown" name="sis">
+                    <option value="window">ویندوز</option>
+                    <option value="macOS">مک او‌اس</option>
+                    <option value="linux">لینوکس</option>
+                    <option value="other">غیره</option>
+                </select><br />
+                <p>بنظرتون بهترین سیستم عامل رو استفاده میکنین؟</p>
+                <input type="radio" id="yes" name="os" value="yes">
+                <label for="yes">بله</label>
+                <input type="radio" id="no" name="os" value="no">
+                <label for="no">خیر</label>
+                <input type="radio" id="other" name="os" value="maby">
+                <label for="maby">باقی رو امتحان نکردم</label>
+            </section>
+            <section class="nazar">
+                <p>کدام قسمت سایت نظرتون رو جلب کرد؟</p>
+                <label class="Padding" for="tarahi"><input id="tarahi" name="tarahi" type="checkbox" value="design">طراحی سایت</label>
+                <label class="Padding" for="text"><input id="text" name="tarahi" type="checkbox" value="write">نحوه بیان</label>
+                <label class="Padding" for="texti"><input id="texti" name="tarahi" type="checkbox" value="content">مطالب</label><br><br>
+                <p>نکته ای انتقادی پیشنهادی :</p><textarea class="textarea"
+                    placeholder="اگه چیز دیگه ای مد نظرتونه"></textarea>
+            </section>
+            <button id="submit" type="submit">ثبت</button>
+        </form>
+    </main>
+</body>
+
+</html>

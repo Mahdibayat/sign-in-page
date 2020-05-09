@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap');
+body{
+    background: rgb(0,0,0);
+    color: white;
+    text-align: center;
+    background-image: url("https://freedesignfile.com/upload/2017/03/A-flower-of-dark-background-Stock-Photo-09.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+:focus{
+    background-color: rgb(144, 243, 172);
+}
+#title{
+    font-size: 350%;
+    color: rgb(204, 0, 18);
+    text-shadow: 1px 1px 1px rgb(102, 51, 52);
+    margin:-10px;
+}
+.Form{
+    background: rgba(70, 0, 0, 0.5);
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-radius:10px;
+    border-color: red;
+}
+.Header{
+    font-family: 'Reem Kufi', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 18px;
+}
+.txtinput{
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+}
+.textarea{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+#submit{
+    width: 100px;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: palevioletred;
+}
+#submit:hover{
+    background-color: rgb(144, 243, 172);
+    transition: 200ms;
+    transform: scale(.97);
+}
+.Padding{
+    padding-right: 10px;
+}
+.etelaat{
+    padding:20px;
+}
+#dropdown{
+    padding: 50px 0;
+    width: 200px;
+    height: 20px;
+    outline: none;
+}
+.nazar{
+    padding: 20px;
+}
+.designer{
+    position: fixed;
+    left : 20px;
+    font-size: 12px;
+    color: rgba(255,255,205, 0.8);
+}
+hr{
+    color: red;
+}
+#yes, #no, #other{
+    margin-right: 20px;
+}
